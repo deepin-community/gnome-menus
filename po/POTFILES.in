@@ -1,0 +1,33 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+desktop-directories/AudioVideo.directory.desktop.in
+desktop-directories/Development.directory.desktop.in
+desktop-directories/Education.directory.desktop.in
+desktop-directories/Game.directory.desktop.in
+desktop-directories/Graphics.directory.desktop.in
+desktop-directories/Network.directory.desktop.in
+desktop-directories/Office.directory.desktop.in
+desktop-directories/System-Tools.directory.desktop.in
+desktop-directories/Utility-Accessibility.directory.desktop.in
+desktop-directories/Utility.directory.desktop.in
+desktop-directories/X-GNOME-Menu-Applications.directory.desktop.in
+desktop-directories/X-GNOME-Other.directory.desktop.in
+desktop-directories/X-GNOME-Sundry.directory.desktop.in
+desktop-directories/X-GNOME-Utilities.directory.desktop.in
+desktop-directories/X-GNOME-WebApplications.directory.desktop.in
+debian/desktop-files/ActionGames.directory.desktop.in
+debian/desktop-files/AdventureGames.directory.desktop.in
+debian/desktop-files/ArcadeGames.directory.desktop.in
+debian/desktop-files/BlocksGames.directory.desktop.in
+debian/desktop-files/BoardGames.directory.desktop.in
+debian/desktop-files/CardGames.directory.desktop.in
+debian/desktop-files/Debian.directory.in
+debian/desktop-files/GnomeScience.directory.in
+debian/desktop-files/KidsGames.directory.desktop.in
+debian/desktop-files/LogicGames.directory.desktop.in
+debian/desktop-files/RolePlayingGames.directory.desktop.in
+debian/desktop-files/Settings-System.directory.in
+debian/desktop-files/Settings.directory.in
+debian/desktop-files/SimulationGames.directory.desktop.in
+debian/desktop-files/SportsGames.directory.desktop.in
+debian/desktop-files/StrategyGames.directory.desktop.in

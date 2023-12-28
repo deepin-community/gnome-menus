@@ -1,0 +1,14 @@
+validate-menu:
+  image: debian:unstable-slim
+  # libxml2 doesn't support https yet but the spec is only available via https
+  # https://bugzilla.gnome.org/791220
+  # https://gitlab.freedesktop.org/freedesktop/freedesktop/issues/114
+  # We shouldn't add the dtd to our git repo because it doesn't have
+  # a clearly distributable license
+  before_script:
+    - apt-get update
+    - apt-get -y install libxml2-utils quilt wget
+  script:
+    - QUILT_PATCHES=debian/patches quilt push -a
+    - wget https://standards.freedesktop.org/menu-spec/menu-latest.dtd
+    - xmllint --noblanks --noout --path menu-latest.dtd layout/gnome-applications.menu
