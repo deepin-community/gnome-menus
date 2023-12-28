@@ -1,0 +1,218 @@
+# Gnome-Menus section translation
+# Copyright (C) Software in the Public Interest, 2004
+# This file is distributed under the same license as the gnome-menus package.
+#
+# Translators:
+# - Initial translation: Javier Fernandez-Sanguino <jfs@debian.org>, march 2004
+#   (menu translation)
+# - Revision: Javier Fernandez-Sanguino <jfs@debian.org>, july 2007
+#   (update for gnome-menus)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-menus 2.18.3-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-21 18:53-0500\n"
+"PO-Revision-Date: 2007-07-18 09:01+0200\n"
+"Last-Translator: Javier Fernandez-Sanguino <jfs@debian.org>\n"
+"Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: debian/desktop-files/ActionGames.directory.desktop.in:3
+msgid "Action"
+msgstr "Acción"
+
+#: debian/desktop-files/ActionGames.directory.desktop.in:4
+msgid "Action games"
+msgstr "Juegos de acción"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/ActionGames.directory.desktop.in:6
+msgid "weather-storm"
+msgstr ""
+
+#: debian/desktop-files/Settings-System.directory.desktop.in:4
+msgid "Administration"
+msgstr "Administración"
+
+#: debian/desktop-files/Settings-System.directory.desktop.in:5
+msgid "Change system-wide settings (affects all users)"
+msgstr ""
+"Cambia las preferencias globales del sistema (afecta a todos los usuarios)"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Settings-System.directory.desktop.in:7
+#, fuzzy
+msgid "preferences-system"
+msgstr "Preferencias"
+
+#: debian/desktop-files/KidsGames.directory.desktop.in:3
+msgid "Kids"
+msgstr "Niños"
+
+#: debian/desktop-files/KidsGames.directory.desktop.in:4
+msgid "Games for kids"
+msgstr "Juegos para niños"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/KidsGames.directory.desktop.in:6
+msgid "gnome-amusements"
+msgstr ""
+
+#: debian/desktop-files/CardGames.directory.desktop.in:3
+msgid "Cards"
+msgstr "Cartas"
+
+#: debian/desktop-files/CardGames.directory.desktop.in:4
+msgid "Card games"
+msgstr "Juegos de cartas"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/CardGames.directory.desktop.in:6
+msgid "gnome-aisleriot"
+msgstr ""
+
+#: debian/desktop-files/Debian.directory.desktop.in:3
+msgid "Debian"
+msgstr "Debian"
+
+#: debian/desktop-files/Debian.directory.desktop.in:4
+msgid "The Debian menu"
+msgstr "El menú de Debian"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Debian.directory.desktop.in:6
+msgid "debian-logo"
+msgstr ""
+
+#: debian/desktop-files/SimulationGames.directory.desktop.in:3
+msgid "Simulation"
+msgstr "Simulación"
+
+#: debian/desktop-files/SimulationGames.directory.desktop.in:4
+msgid "Simulation games"
+msgstr "Juegos de simulación"
+
+#: debian/desktop-files/BoardGames.directory.desktop.in:3
+msgid "Board"
+msgstr "Tablero"
+
+#: debian/desktop-files/BoardGames.directory.desktop.in:4
+msgid "Board games"
+msgstr "Juegos de tablero"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/BoardGames.directory.desktop.in:6
+msgid "desktop"
+msgstr ""
+
+#: debian/desktop-files/GnomeScience.directory.desktop.in:3
+msgid "Science"
+msgstr "Ciencia"
+
+#: debian/desktop-files/GnomeScience.directory.desktop.in:4
+msgid "Scientific applications"
+msgstr "Aplicaciones Científicas"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/GnomeScience.directory.desktop.in:6
+msgid "applications-science"
+msgstr ""
+
+#: debian/desktop-files/StrategyGames.directory.desktop.in:3
+msgid "Strategy"
+msgstr "Estrategia"
+
+#: debian/desktop-files/StrategyGames.directory.desktop.in:4
+msgid "Strategy games"
+msgstr "Juegos de estrategia"
+
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:3
+msgid "Arcade"
+msgstr "Arcade"
+
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:4
+msgid "Arcade style games"
+msgstr "Juegos tipo arcade"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:6
+msgid "gnome-joystick"
+msgstr ""
+
+#: debian/desktop-files/Settings.directory.desktop.in:3
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: debian/desktop-files/Settings.directory.desktop.in:4
+msgid "Personal preferences"
+msgstr "Preferencias personales"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Settings.directory.desktop.in:6
+#, fuzzy
+msgid "preferences-desktop"
+msgstr "Preferencias"
+
+#: debian/desktop-files/BlocksGames.directory.desktop.in:3
+msgid "Falling blocks"
+msgstr "Bloques cayendo"
+
+#: debian/desktop-files/BlocksGames.directory.desktop.in:4
+msgid "Falling blocks games"
+msgstr "Juegos de bloques cayendo"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/BlocksGames.directory.desktop.in:6
+msgid "quadrapassel"
+msgstr ""
+
+#: debian/desktop-files/SportsGames.directory.desktop.in:3
+msgid "Sports"
+msgstr "Deportes"
+
+#: debian/desktop-files/SportsGames.directory.desktop.in:4
+msgid "Sports games"
+msgstr "Juegos de deportes"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/SportsGames.directory.desktop.in:6
+msgid "trophy-gold"
+msgstr ""
+
+#: debian/desktop-files/LogicGames.directory.desktop.in:3
+msgid "Logic"
+msgstr "Lógica"
+
+#: debian/desktop-files/LogicGames.directory.desktop.in:4
+msgid "Logic and puzzle games"
+msgstr "Juegos de lógica y puzles"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/LogicGames.directory.desktop.in:6
+msgid "system-run"
+msgstr ""
+
+#: debian/desktop-files/AdventureGames.directory.desktop.in:3
+msgid "Adventure"
+msgstr "Aventura"
+
+#: debian/desktop-files/AdventureGames.directory.desktop.in:4
+msgid "Adventure style games"
+msgstr "Juegos tipo aventura"
+
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:3
+msgid "Role playing"
+msgstr "Rol"
+
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:4
+msgid "Role playing games"
+msgstr "Juegos de rol"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:6
+msgid "avatar-default"
+msgstr ""

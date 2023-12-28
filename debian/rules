@@ -1,4 +1,29 @@
 #!/usr/bin/make -f
 
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,-z,defs -Wl,--as-needed
+
 %:
-	dh $@
+	dh $@ --with gir,gnome,python3
+
+INFILES := $(wildcard debian/desktop-files/*.directory.desktop.in)
+OUTFILES := $(INFILES:.directory.desktop.in=.directory)
+
+%.directory: %.directory.desktop.in
+	msgfmt --desktop --template $< -o $@ -d debian/po-up
+
+override_dh_auto_build: $(OUTFILES)
+	dh_auto_build
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='libgnome-menu-3-0-dbg (<< 3.13.3-8~)'
+
+override_dh_auto_clean:
+	dh_auto_clean
+	-rm -f $(OUTFILES)
+
+update-po:
+	ls $(INFILES) | sed 's#^#../#' >debian/po-up/POTFILES.in
+	xgettext -d debian -o debian/po-up/debian.pot --from-code=UTF-8 --add-comments $(INFILES) && \
+		cd debian/po-up && for i in *.po; do msgmerge --update --backup=off $${i} debian.pot; done
+	rm -f debian/po-up/POTFILES.in

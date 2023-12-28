@@ -1,0 +1,218 @@
+# translation of ro.po to Romanian
+# Menu section translation
+# Copyright (C) 2003
+# This file is distributed under the same license as the menu package.
+#
+# Bill Allombert <ballombe@debian.org>, 2003.
+# Sorin Batariuc <sorin@bonbon.net>, 2005.
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-21 18:53-0500\n"
+"PO-Revision-Date: 2008-07-09 23:51+0300\n"
+"Last-Translator: Eddy Petrișor <eddy.petrisor@gmail.com>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#: debian/desktop-files/ActionGames.directory.desktop.in:3
+msgid "Action"
+msgstr "Acțiune"
+
+#: debian/desktop-files/ActionGames.directory.desktop.in:4
+msgid "Action games"
+msgstr "Jocuri de acțiune"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/ActionGames.directory.desktop.in:6
+msgid "weather-storm"
+msgstr ""
+
+#: debian/desktop-files/Settings-System.directory.desktop.in:4
+msgid "Administration"
+msgstr "Administrare"
+
+#: debian/desktop-files/Settings-System.directory.desktop.in:5
+msgid "Change system-wide settings (affects all users)"
+msgstr "Configurarea sistemului (afectează toți utilizatorii)"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Settings-System.directory.desktop.in:7
+#, fuzzy
+msgid "preferences-system"
+msgstr "Preferințe"
+
+#: debian/desktop-files/KidsGames.directory.desktop.in:3
+msgid "Kids"
+msgstr "Copii"
+
+#: debian/desktop-files/KidsGames.directory.desktop.in:4
+msgid "Games for kids"
+msgstr "Jocuri pentru copii"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/KidsGames.directory.desktop.in:6
+msgid "gnome-amusements"
+msgstr ""
+
+#: debian/desktop-files/CardGames.directory.desktop.in:3
+msgid "Cards"
+msgstr "Cărți"
+
+#: debian/desktop-files/CardGames.directory.desktop.in:4
+msgid "Card games"
+msgstr "Jocuri de cărți"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/CardGames.directory.desktop.in:6
+msgid "gnome-aisleriot"
+msgstr ""
+
+#: debian/desktop-files/Debian.directory.desktop.in:3
+msgid "Debian"
+msgstr "Debian"
+
+#: debian/desktop-files/Debian.directory.desktop.in:4
+msgid "The Debian menu"
+msgstr "Meniul Debian"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Debian.directory.desktop.in:6
+msgid "debian-logo"
+msgstr ""
+
+#: debian/desktop-files/SimulationGames.directory.desktop.in:3
+msgid "Simulation"
+msgstr "Simulare"
+
+#: debian/desktop-files/SimulationGames.directory.desktop.in:4
+msgid "Simulation games"
+msgstr "Jocuri de tip simulator"
+
+#: debian/desktop-files/BoardGames.directory.desktop.in:3
+msgid "Board"
+msgstr "Table"
+
+#: debian/desktop-files/BoardGames.directory.desktop.in:4
+msgid "Board games"
+msgstr "Jocuri pe tablă"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/BoardGames.directory.desktop.in:6
+msgid "desktop"
+msgstr ""
+
+#: debian/desktop-files/GnomeScience.directory.desktop.in:3
+msgid "Science"
+msgstr "Știință"
+
+#: debian/desktop-files/GnomeScience.directory.desktop.in:4
+msgid "Scientific applications"
+msgstr ""
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/GnomeScience.directory.desktop.in:6
+msgid "applications-science"
+msgstr ""
+
+#: debian/desktop-files/StrategyGames.directory.desktop.in:3
+msgid "Strategy"
+msgstr "Strategie"
+
+#: debian/desktop-files/StrategyGames.directory.desktop.in:4
+msgid "Strategy games"
+msgstr "Jocuri de strategie"
+
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:3
+msgid "Arcade"
+msgstr "Arcade"
+
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:4
+msgid "Arcade style games"
+msgstr "Jocuri de tip arcade"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/ArcadeGames.directory.desktop.in:6
+msgid "gnome-joystick"
+msgstr ""
+
+#: debian/desktop-files/Settings.directory.desktop.in:3
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: debian/desktop-files/Settings.directory.desktop.in:4
+msgid "Personal preferences"
+msgstr "Preferințe personale"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/Settings.directory.desktop.in:6
+#, fuzzy
+msgid "preferences-desktop"
+msgstr "Preferințe"
+
+#: debian/desktop-files/BlocksGames.directory.desktop.in:3
+msgid "Falling blocks"
+msgstr "Blocuri căzătoare"
+
+#: debian/desktop-files/BlocksGames.directory.desktop.in:4
+msgid "Falling blocks games"
+msgstr "Jocuri cu blocuri căzătoare"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/BlocksGames.directory.desktop.in:6
+msgid "quadrapassel"
+msgstr ""
+
+#: debian/desktop-files/SportsGames.directory.desktop.in:3
+msgid "Sports"
+msgstr "Sporturi"
+
+#: debian/desktop-files/SportsGames.directory.desktop.in:4
+msgid "Sports games"
+msgstr "Jocuri sportive"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/SportsGames.directory.desktop.in:6
+msgid "trophy-gold"
+msgstr ""
+
+#: debian/desktop-files/LogicGames.directory.desktop.in:3
+msgid "Logic"
+msgstr "Logică"
+
+#: debian/desktop-files/LogicGames.directory.desktop.in:4
+msgid "Logic and puzzle games"
+msgstr "Jocuri de logică și puzzle"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/LogicGames.directory.desktop.in:6
+msgid "system-run"
+msgstr ""
+
+#: debian/desktop-files/AdventureGames.directory.desktop.in:3
+msgid "Adventure"
+msgstr "Aventură"
+
+#: debian/desktop-files/AdventureGames.directory.desktop.in:4
+msgid "Adventure style games"
+msgstr "Jocuri de aventură"
+
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:3
+msgid "Role playing"
+msgstr "Roluri"
+
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:4
+msgid "Role playing games"
+msgstr "Jocuri de rol"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: debian/desktop-files/RolePlayingGames.directory.desktop.in:6
+msgid "avatar-default"
+msgstr ""
