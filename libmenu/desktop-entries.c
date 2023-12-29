@@ -249,8 +249,6 @@ desktop_entry_load_directory (DesktopEntry  *entry,
 static gboolean
 desktop_entry_load (DesktopEntry *entry)
 {
-  if (strstr (entry->path, "/menu-xdg/"))
-    return FALSE;
   if (entry->type == DESKTOP_ENTRY_DESKTOP)
     {
       DesktopEntryDesktop *entry_desktop = (DesktopEntryDesktop*)entry;

@@ -389,16 +389,6 @@ canonicalize_basename (GMenuTree  *tree,
     }
 }
 
-static char *
-prefix_menu_name (const char *orig_name)
-{
-  char *prefix;
-  prefix = g_getenv ("XDG_MENU_PREFIX");
-  if (prefix == NULL)
-    prefix = "gnome-";
-  return g_strconcat (prefix, orig_name, NULL);
-}
-
 static gboolean
 gmenu_tree_canonicalize_path (GMenuTree *tree,
                               GError   **error)
@@ -423,9 +413,6 @@ gmenu_tree_canonicalize_path (GMenuTree *tree,
 
       menu_file = tree->basename;
       xdg_menu_prefix = g_getenv ("XDG_MENU_PREFIX");
-
-      if (xdg_menu_prefix == NULL)
-        xdg_menu_prefix = "gnome-";
 
       if (xdg_menu_prefix != NULL)
         {
@@ -2084,10 +2071,13 @@ load_parent_merge_file (GMenuTree      *tree,
   found = FALSE;
   menu_file = g_strconcat (menu_name, ".menu", NULL);
 
-  if (strcmp (menu_file, "applications.menu") == 0)
+  if (strcmp (menu_file, "applications.menu") == 0 &&
+      g_getenv ("XDG_MENU_PREFIX"))
     {
       char *prefixed_basename;
-      prefixed_basename = prefix_menu_name (menu_file);
+      prefixed_basename = g_strdup_printf ("%s%s",
+                                           g_getenv ("XDG_MENU_PREFIX"),
+                                           menu_file);
       found = load_parent_merge_file_from_basename (tree, loaded_menu_files,
                                                     layout, prefixed_basename,
                                                     canonical_basedir);
